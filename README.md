@@ -20,7 +20,14 @@ yarn build
 yarn preview
 ```
 
+#### Test
+
+```
+yarn test
+```
+
 ### Useful Links
 
 - https://vitejs.dev/config/
 - https://vitejs.dev/plugins/
+- https://vitest.dev/
