@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     errorElement: (
       <>
         <h1>Page Not Found</h1>
-        <Link to="/">Back</Link>
+        <Link to={pagePath.index}>Back</Link>
       </>
     ),
     children: Object.keys(allPageRoutes).map(
