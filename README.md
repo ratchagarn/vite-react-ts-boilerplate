@@ -1,32 +1,50 @@
 # Vite React TypeScript Boilerplate
 
-### Scripts
+React TypeScript Application setup with Vite
 
-#### Development
+## Scripts
+
+### Development
 
 ```
 yarn dev
 ```
 
-#### Build
+### Build
 
 ```
 yarn build
 ```
 
-#### Preview
+### Preview
 
 ```
 yarn preview
 ```
 
-#### Test
+### Test
 
 ```
 yarn test
 ```
 
-### Useful Links
+## Env Variables
+
+### `VITE_APP_PORT`
+
+Application server port, if you want to change this port you must create `.env.local` then add your new own port
+
+```
+# .env.local
+
+VITE_APP_SERVER_PORT=3001
+```
+
+### `VITE_APP_TITLE`
+
+Application title
+
+## Useful Links
 
 - https://vitejs.dev/config/
 - https://vitejs.dev/plugins/
